@@ -290,7 +290,7 @@ def modBlenderBatcher(srcDirectory):
 	a_file.writelines(list_of_lines)
 	a_file.close()
 
-	os.system('start C:\\Denoiser\\EXR_MERGE\\blender-2.82a-windows64\\blender.exe --background --factory-startup --python C:\\Denoiser\\EXR_MERGE\\exrMerge_toBlender_v001.py')
+	os.system('start C:\\Denoiser\\EXR_MERGE\\blender_executable\\blender.exe --background --factory-startup --python C:\\Denoiser\\EXR_MERGE\\exrMerge_toBlender_v001.py')
 
 
 
